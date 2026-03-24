@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "flavors": "Parfums",
+    "contact": "Contact",
+    "locations": "Nos adresses",
+    "about": "À propos",
+    "configurator": "Gelato Esagerato",
+    "catering": "Traiteur",
+    "gallery": "Galerie"
+  },
+  "hero": {
+    "title": "Gelato artigianale. Fait main avec le cœur",
+    "subtitle": "Chez Bongusto, nous croyons au vrai gelato italien. Préparé chaque jour avec des ingrédients naturels et beaucoup d'amour pour notre métier.",
+    "cta": "Créez le vôtre"
+  },
+  "featured": {
+    "title": "Nos préférés",
+    "subtitle": "Les parfums que nos clients adorent"
+  },
+  "about_teaser": {
+    "title": "Notre histoire",
+    "text": "Depuis des générations, notre famille est unie par la passion du vrai gelato italien. Chaque boule raconte une histoire. Découvrez ce qui rend Bongusto si spécial.",
+    "cta": "En savoir plus"
+  },
+  "locations_preview": {
+    "title": "Nos adresses",
+    "subtitle": "Passez nous voir et dégustez notre gelato sur place"
+  },
+  "cta_section": {
+    "title": "Créez votre gelato de rêve !",
+    "subtitle": "Choisissez la taille, les parfums et les toppings selon vos envies.",
+    "cta": "C'est parti"
+  },
+  "flavors_page": {
+    "title": "Nos parfums",
+    "subtitle": "Découvrez toute la variété de notre gelato artisanal",
+    "filter_all": "Tous",
+    "filter_classic": "Classiques",
+    "filter_fruit": "Fruités",
+    "filter_special": "Spécialités",
+    "filter_vegan": "Végan",
+    "filter_seasonal": "De saison",
+    "vegan": "Végan",
+    "lactose_free": "Sans lactose"
+  },
+  "contact_page": {
+    "title": "Contact",
+    "subtitle": "Écrivez-nous. Nous serons ravis de vous lire",
+    "name": "Nom",
+    "email": "E-mail",
+    "subject": "Objet",
+    "message": "Message",
+    "send": "Envoyer",
+    "success": "Merci pour votre message ! Nous vous répondrons très bientôt.",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  },
+  "locations_page": {
+    "title": "Adresses",
+    "subtitle": "Venez nous rendre visite et laissez-vous gâter",
+    "opening_hours": "Horaires d'ouverture",
+    "get_directions": "Itinéraire"
+  },
+  "about_page": {
+    "title": "À propos",
+    "subtitle": "L'histoire derrière Bongusto",
+    "text1": "Bongusto, c'est le vrai gelato italien. Préparé avec des ingrédients naturels et beaucoup de passion. Depuis des générations, notre famille allie l'amour de l'artisanat au savoir-faire des recettes traditionnelles.",
+    "text2": "Dans nos adresses d'Abtwil et de Rorschach, nous proposons un large choix de parfums classiques et créatifs. Beaucoup d'entre eux sont végans et sans lactose."
+  },
+  "catering_page": {
+    "title": "Traiteur",
+    "subtitle": "Du gelato pour votre occasion spéciale",
+    "text": "Mariage, anniversaire ou événement d'entreprise. Nous apportons l'expérience Bongusto directement chez vous. Contactez-nous et nous vous préparerons une offre sur mesure.",
+    "cta": "Demander un devis"
+  },
+  "gallery_page": {
+    "title": "Galerie",
+    "subtitle": "Un aperçu du monde de Bongusto"
+  },
+  "configurator": {
+    "title": "Gelato Esagerato",
+    "subtitle": "Composez votre gelato parfait en quelques étapes",
+    "step_size": "Format",
+    "step_flavors": "Parfums",
+    "step_toppings": "Toppings",
+    "step_container": "Bongusto Cup",
+    "step_pickup": "Retrait",
+    "container_note": "Bongusto Cup nécessaire. Apportez le vôtre ou achetez-en un nouveau (CHF 4.-).",
+    "select_size": "Choisissez la taille de votre pot",
+    "max_flavors": "jusqu'à {count} parfums au choix",
+    "select_flavors": "Quels parfums vous font envie ?",
+    "flavors_selected": "{current} sur {max} sélectionnés",
+    "select_toppings": "Envie d'ajouter des toppings ?",
+    "toppings_optional": "Les toppings sont facultatifs",
+    "select_pickup": "Dans quelle adresse souhaitez-vous retirer ?",
+    "next": "Suivant",
+    "back": "Retour",
+    "summary": "Votre sélection",
+    "container": "Pot",
+    "einweggebinde": "Pot jetable",
+    "included": "inclus",
+    "total": "Total",
+    "finish": "Confirmer la commande",
+    "order_complete": "Votre commande est prête !",
+    "order_pickup_info": "Vous pouvez retirer votre gelato chez {location}.",
+    "promo_label": "Bongusto Builder",
+    "promo_cta": "Lancez votre Gelato Esagerato",
+    "step_size_desc": "0.5L, 0.75L ou 1L. Vous décidez de la taille de votre gelato.",
+    "step_flavors_desc": "Stracciatella, Pistache, Mangue et bien d'autres. Composez vos parfums préférés.",
+    "step_toppings_desc": "Snickers, Brownies, Ovomaltine Crunchy et bien plus. Le topping fait toute la différence.",
+    "container_choice_desc": "Apportez votre Bongusto Cup ou achetez-en un nouveau. Nos Cups sont solides, réutilisables et durent éternellement.",
+    "own_container": "Mon Bongusto Cup",
+    "own_container_desc": "J'apporte mon propre Bongusto Cup.",
+    "new_container": "Nouveau Bongusto Cup",
+    "new_container_desc": "J'achète un nouveau Bongusto Cup. Solide et réutilisable.",
+    "free": "Gratuit",
+    "choose_language": "Choisir la langue"
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "imprint": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "tagline": "Vrai gelato italien. Depuis des générations"
+  },
+  "common": {
+    "loading": "Chargement …",
+    "error": "Une erreur est survenue",
+    "language": "Langue",
+    "chf": "CHF"
+  }
+}

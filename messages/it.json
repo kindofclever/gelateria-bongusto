@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "flavors": "Gusti",
+    "contact": "Contatto",
+    "locations": "Sedi",
+    "about": "Chi siamo",
+    "configurator": "Gelato Esagerato",
+    "catering": "Catering",
+    "gallery": "Galleria"
+  },
+  "hero": {
+    "title": "Gelato artigianale. Fatto con il cuore",
+    "subtitle": "Da Bongusto crediamo nel vero gelato italiano. Preparato ogni giorno con ingredienti naturali e tanta passione per il nostro mestiere.",
+    "cta": "Crea il tuo gelato"
+  },
+  "featured": {
+    "title": "I nostri preferiti",
+    "subtitle": "I gusti più amati dai nostri clienti"
+  },
+  "about_teaser": {
+    "title": "La nostra storia",
+    "text": "Da generazioni la nostra famiglia è legata dalla passione per il vero gelato italiano. Ogni coppetta racconta una storia. Scopri cosa rende Bongusto così speciale.",
+    "cta": "Scopri di più"
+  },
+  "locations_preview": {
+    "title": "Le nostre sedi",
+    "subtitle": "Vieni a trovarci e gusta il nostro gelato sul posto"
+  },
+  "cta_section": {
+    "title": "Crea il tuo gelato dei sogni!",
+    "subtitle": "Scegli formato, gusti e topping secondo i tuoi desideri.",
+    "cta": "Inizia ora"
+  },
+  "flavors_page": {
+    "title": "I nostri gusti",
+    "subtitle": "Scopri tutta la varietà del nostro gelato artigianale",
+    "filter_all": "Tutti",
+    "filter_classic": "Classici",
+    "filter_fruit": "Frutta",
+    "filter_special": "Specialità",
+    "filter_vegan": "Vegano",
+    "filter_seasonal": "Stagionali",
+    "vegan": "Vegano",
+    "lactose_free": "Senza lattosio"
+  },
+  "contact_page": {
+    "title": "Contatto",
+    "subtitle": "Scrivici. Saremo felici di sentirti",
+    "name": "Nome",
+    "email": "E-mail",
+    "subject": "Oggetto",
+    "message": "Messaggio",
+    "send": "Invia",
+    "success": "Grazie per il tuo messaggio! Ti risponderemo al più presto.",
+    "phone": "Telefono",
+    "address": "Indirizzo"
+  },
+  "locations_page": {
+    "title": "Sedi",
+    "subtitle": "Vieni a trovarci e lasciati coccolare",
+    "opening_hours": "Orari di apertura",
+    "get_directions": "Come raggiungerci"
+  },
+  "about_page": {
+    "title": "Chi siamo",
+    "subtitle": "La storia dietro Bongusto",
+    "text1": "Bongusto rappresenta il vero gelato italiano. Preparato con ingredienti naturali e tanta passione. Da generazioni la nostra famiglia unisce l'amore per l'artigianato alla conoscenza delle ricette tradizionali.",
+    "text2": "Nelle nostre sedi di Abtwil e Rorschach offriamo una vasta scelta di gusti classici e creativi. Molti dei quali vegani e senza lattosio."
+  },
+  "catering_page": {
+    "title": "Catering",
+    "subtitle": "Gelato per la tua occasione speciale",
+    "text": "Matrimonio, compleanno o evento aziendale. Portiamo l'esperienza Bongusto direttamente da te. Contattaci e creeremo un'offerta su misura.",
+    "cta": "Richiedi un preventivo"
+  },
+  "gallery_page": {
+    "title": "Galleria",
+    "subtitle": "Uno sguardo nel mondo di Bongusto"
+  },
+  "configurator": {
+    "title": "Gelato Esagerato",
+    "subtitle": "Componi il tuo gelato perfetto in pochi passi",
+    "step_size": "Formato",
+    "step_flavors": "Gusti",
+    "step_toppings": "Topping",
+    "step_container": "Bongusto Cup",
+    "step_pickup": "Ritiro",
+    "container_note": "Bongusto Cup necessario. Porta il tuo o acquistane uno nuovo (CHF 4.-).",
+    "select_size": "Scegli la dimensione della tua coppetta",
+    "max_flavors": "fino a {count} gusti a scelta",
+    "select_flavors": "Quali gusti desideri?",
+    "flavors_selected": "{current} di {max} selezionati",
+    "select_toppings": "Vuoi aggiungere dei topping?",
+    "toppings_optional": "I topping sono facoltativi",
+    "select_pickup": "In quale sede vuoi ritirare?",
+    "next": "Avanti",
+    "back": "Indietro",
+    "summary": "La tua selezione",
+    "container": "Coppetta",
+    "einweggebinde": "Coppetta monouso",
+    "included": "incluso",
+    "total": "Totale",
+    "finish": "Conferma ordine",
+    "order_complete": "Il tuo ordine è pronto!",
+    "order_pickup_info": "Puoi ritirare il tuo gelato presso {location}.",
+    "promo_label": "Bongusto Builder",
+    "promo_cta": "Inizia il tuo Gelato Esagerato",
+    "step_size_desc": "0.5L, 0.75L o 1L. Decidi tu quanto grande sarà il tuo gelato.",
+    "step_flavors_desc": "Stracciatella, Pistacchio, Mango e tanti altri. Mescola i tuoi gusti preferiti.",
+    "step_toppings_desc": "Snickers, Brownies, Ovomaltine Crunchy e molto altro. Il topping fa la differenza.",
+    "container_choice_desc": "Porta il tuo Bongusto Cup o acquistane uno nuovo. I nostri Cup sono robusti, riutilizzabili e durano per sempre.",
+    "own_container": "Il mio Bongusto Cup",
+    "own_container_desc": "Porto il mio Bongusto Cup.",
+    "new_container": "Nuovo Bongusto Cup",
+    "new_container_desc": "Acquisto un nuovo Bongusto Cup. Robusto e riutilizzabile.",
+    "free": "Gratuito",
+    "choose_language": "Scegli la lingua"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati",
+    "imprint": "Impressum",
+    "privacy": "Privacy",
+    "tagline": "Vero gelato italiano. Da generazioni"
+  },
+  "common": {
+    "loading": "Caricamento …",
+    "error": "Qualcosa è andato storto",
+    "language": "Lingua",
+    "chf": "CHF"
+  }
+}

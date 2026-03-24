@@ -1,26 +1,108 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@plugin "daisyui/theme" {
+  name: "bongusto";
+  default: true;
+  color-scheme: light;
+
+  /* Light base — clean white/light grey instead of cream */
+  --color-base-100: oklch(98.5% 0 0);
+  --color-base-200: oklch(95.5% 0 0);
+  --color-base-300: oklch(91% 0 0);
+  --color-base-content: oklch(12% 0.005 200);
+
+  /* Hot Pink - Primary */
+  --color-primary: oklch(62% 0.2 360);
+  --color-primary-content: oklch(98% 0.005 0);
+
+  /* Mint Green - Secondary */
+  --color-secondary: oklch(82% 0.11 162);
+  --color-secondary-content: oklch(12% 0.005 200);
+
+  /* Cornflower Blue - Accent */
+  --color-accent: oklch(63% 0.14 272);
+  --color-accent-content: oklch(98% 0.005 272);
+
+  /* Neutral — #0e1111 */
+  --color-neutral: oklch(12% 0.005 200);
+  --color-neutral-content: oklch(96% 0 0);
+
+  /* Bright Yellow - Warning */
+  --color-warning: oklch(88% 0.16 90);
+  --color-warning-content: oklch(12% 0.005 200);
+
+  /* Success = Mint Green */
+  --color-success: oklch(82% 0.11 162);
+  --color-success-content: oklch(12% 0.005 200);
+
+  /* Info = Blue */
+  --color-info: oklch(63% 0.14 272);
+  --color-info-content: oklch(98% 0.005 272);
+
+  /* Error */
+  --color-error: oklch(60% 0.2 25);
+  --color-error-content: oklch(98% 0.005 25);
+
+  /* Pill-shaped buttons, rounded cards */
+  --rounded-btn: 9999px;
+  --rounded-box: 1rem;
+  --rounded-badge: 9999px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-fredoka);
+  --font-body: var(--font-nunito);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+/* FAB alignment with navbar */
+:root {
+  --fab-right: 3rem;
+}
+@media (min-width: 768px) {
+  :root {
+    --fab-right: 5rem;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --fab-right: 4.8rem;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e1111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(82% 0.11 162);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(75% 0.11 162);
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: oklch(82% 0.11 162) #0e1111;
 }

@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "flavors": "Sorten",
+    "contact": "Kontakt",
+    "locations": "Standorte",
+    "about": "Über uns",
+    "configurator": "Gelato Esagerato",
+    "catering": "Catering",
+    "gallery": "Galerie"
+  },
+  "hero": {
+    "title": "Gelato artigianale. Handgemacht mit Herz.",
+    "subtitle": "Wir bei Bongusto stehen für echtes italienisches Gelato. Täglich frisch zubereitet mit natürlichen Zutaten und viel Liebe zum Handwerk.",
+    "cta": "Eis zusammenstellen"
+  },
+  "featured": {
+    "title": "Unsere Lieblinge",
+    "subtitle": "Die Sorten, die unsere Gäste am meisten lieben"
+  },
+  "about_teaser": {
+    "title": "Unsere Geschichte",
+    "text": "Seit Generationen verbindet unsere Familie die Leidenschaft für echtes italienisches Gelato. Jede Kugel erzählt eine Geschichte. Erfahre, was Bongusto so besonders macht.",
+    "cta": "Mehr erfahren"
+  },
+  "locations_preview": {
+    "title": "Unsere Standorte",
+    "subtitle": "Komm vorbei und geniesse unser Gelato vor Ort"
+  },
+  "cta_section": {
+    "title": "Kreiere dein Wunsch-Gelato!",
+    "subtitle": "Wähle Grösse, Sorten und Toppings ganz nach deinem Geschmack.",
+    "cta": "Jetzt zusammenstellen"
+  },
+  "flavors_page": {
+    "title": "Unsere Sorten",
+    "subtitle": "Entdecke die ganze Vielfalt unseres handgemachten Gelatos",
+    "filter_all": "Alle",
+    "filter_classic": "Klassiker",
+    "filter_fruit": "Frucht",
+    "filter_special": "Spezialitäten",
+    "filter_vegan": "Vegan",
+    "filter_seasonal": "Saison",
+    "vegan": "Vegan",
+    "lactose_free": "Laktosefrei"
+  },
+  "contact_page": {
+    "title": "Kontakt",
+    "subtitle": "Schreib uns. Wir freuen uns auf deine Nachricht.",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Absenden",
+    "success": "Vielen Dank für deine Nachricht! Wir melden uns bald bei dir.",
+    "phone": "Telefon",
+    "address": "Adresse"
+  },
+  "locations_page": {
+    "title": "Standorte",
+    "subtitle": "Besuch uns vor Ort und gönn dir eine kühle Auszeit",
+    "opening_hours": "Öffnungszeiten",
+    "get_directions": "Route planen"
+  },
+  "about_page": {
+    "title": "Über uns",
+    "subtitle": "Die Geschichte hinter Bongusto",
+    "text1": "Bongusto steht für echtes italienisches Gelato. Hergestellt mit natürlichen Zutaten und viel Leidenschaft. Seit Generationen verbindet unsere Familie die Liebe zum Handwerk mit dem Wissen um traditionelle Rezepturen.",
+    "text2": "An unseren Standorten in Abtwil und Rorschach bieten wir eine grosse Auswahl an klassischen und kreativen Sorten. Viele davon vegan und laktosefrei."
+  },
+  "catering_page": {
+    "title": "Catering",
+    "subtitle": "Gelato für deinen Anlass",
+    "text": "Hochzeit, Geburtstag oder Firmenevent. Wir bringen das Bongusto Erlebnis direkt zu dir. Kontaktiere uns und wir stellen ein individuelles Angebot für dich zusammen.",
+    "cta": "Anfrage senden"
+  },
+  "gallery_page": {
+    "title": "Galerie",
+    "subtitle": "Einblicke in die Welt von Bongusto"
+  },
+  "configurator": {
+    "title": "Gelato Esagerato",
+    "subtitle": "Kreiere dein perfektes Gelato in wenigen Schritten",
+    "step_size": "Grösse",
+    "step_flavors": "Sorten",
+    "step_toppings": "Toppings",
+    "step_container": "Bongusto Cup",
+    "step_pickup": "Abholung",
+    "container_note": "Bongusto Cup nötig. Eigenen mitbringen oder neuen kaufen (CHF 4.-).",
+    "select_size": "Wähle die Grösse deines Bechers",
+    "max_flavors": "bis zu {count} Sorten wählbar",
+    "select_flavors": "Welche Sorten dürfen es sein?",
+    "flavors_selected": "{current} von {max} gewählt",
+    "select_toppings": "Möchtest du Toppings dazu?",
+    "toppings_optional": "Toppings sind optional",
+    "select_pickup": "An welchem Standort möchtest du abholen?",
+    "next": "Weiter",
+    "back": "Zurück",
+    "summary": "Deine Auswahl",
+    "container": "Becher",
+    "einweggebinde": "Einwegbecher",
+    "included": "inklusive",
+    "total": "Total",
+    "finish": "Bestellung abschliessen",
+    "order_complete": "Deine Bestellung ist bereit!",
+    "order_pickup_info": "Du kannst dein Gelato bei {location} abholen.",
+    "promo_label": "Bongusto Builder",
+    "promo_cta": "Gelato Esagerato starten",
+    "step_size_desc": "0.5L, 0.75L oder 1L. Du entscheidest, wie gross dein Gelato wird.",
+    "step_flavors_desc": "Stracciatella, Pistacchio, Mango und mehr. Mix deine Lieblingssorten zusammen.",
+    "step_toppings_desc": "Snickers, Brownies, Ovomaltine Crunchy und mehr. Das Topping macht den Unterschied.",
+    "container_choice_desc": "Bring deinen eigenen Bongusto Cup mit oder kauf dir einen neuen. Unsere Cups sind stabil, wiederverwendbar und halten ewig.",
+    "own_container": "Eigener Bongusto Cup",
+    "own_container_desc": "Ich bringe meinen Bongusto Cup selbst mit.",
+    "new_container": "Neuer Bongusto Cup",
+    "new_container_desc": "Ich kaufe einen neuen Bongusto Cup. Stabil und wiederverwendbar.",
+    "free": "Gratis",
+    "choose_language": "Sprache wählen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "tagline": "Echtes italienisches Gelato. Seit Generationen."
+  },
+  "common": {
+    "loading": "Wird geladen …",
+    "error": "Etwas ist schiefgelaufen",
+    "language": "Sprache",
+    "chf": "CHF"
+  }
+}

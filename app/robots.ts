@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/studio", "/api"],
       },
     ],
-    sitemap: "https://bongusto.ch/sitemap.xml",
+    sitemap: "https://gelateria-bongusto.ch/sitemap.xml",
   };
 }

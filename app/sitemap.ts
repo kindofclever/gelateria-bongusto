@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://bongusto.ch";
+const baseUrl = "https://gelateria-bongusto.ch";
 const locales = ["de", "it", "en", "fr"];
 
 const pages = [

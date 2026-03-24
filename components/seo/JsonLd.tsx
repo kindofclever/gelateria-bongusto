@@ -5,7 +5,7 @@ export default function JsonLd() {
     name: "Bongusto Gelateria",
     description:
       "Handgemachtes italienisches Gelato. Frisch zubereitet mit natürlichen Zutaten in Abtwil und Rorschach.",
-    url: "https://bongusto.ch",
+    url: "https://gelateria-bongusto.ch",
     telephone: "+41 71 000 00 00",
     email: "info@bongusto.ch",
     servesCuisine: "Italian Gelato",

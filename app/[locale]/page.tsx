@@ -20,7 +20,7 @@ export default function Home() {
         />
         <div className="hero-overlay bg-black/20" />
         <div className="hero-content text-neutral-content w-full">
-          <div className="ml-auto mr-4 md:mr-4 lg:mr-8 -mt-20 md:-mt-40 mb-auto text-right max-w-lg">
+          <div className="ml-auto mr-4 md:mr-4 lg:mr-8 -mt-72 md:-mt-40 mb-auto text-right max-w-lg">
             <p className="text-3xl md:text-5xl font-semibold text-secondary mb-21tracking-[0.1em] uppercase">
               Gelateria
             </p>
@@ -31,13 +31,16 @@ export default function Home() {
               {t("hero.title")}
             </p>
             <p className="mb-8 text-s">{t("hero.subtitle")}</p>
-            <div className="flex flex-wrap justify-end gap-4">
-              <Link href="/kontakt" className="btn btn-primary btn-lg">
+            <div className="flex flex-wrap justify-end gap-3">
+              <Link
+                href="/kontakt"
+                className="btn btn-primary btn-sm md:btn-lg"
+              >
                 {t("nav.contact")}
               </Link>
               <Link
                 href="/sorten"
-                className="btn btn-ghost btn-lg border-white/30 hover:bg-white/10"
+                className="btn btn-ghost btn-sm md:btn-lg border-white/30 hover:bg-white/10"
               >
                 {t("nav.flavors")}
               </Link>
@@ -118,12 +121,13 @@ export default function Home() {
             </p>
             <Link
               href="/gelato-esagerato"
-              className="btn btn-warning btn-lg text-xl font-bold px-12"
+              className="btn btn-warning btn-sm md:btn-lg text-base md:text-xl font-bold px-6 md:px-12"
             >
               {t("configurator.promo_cta")}
             </Link>
             <p className="text-xs text-secondary-content/40 mt-6">
-              Gelato Esagerato&trade; by Bongusto. Alle Toppings werden direkt eingerührt.
+              Gelato Esagerato&trade; by Bongusto. Alle Toppings werden direkt
+              eingerührt.
             </p>
           </div>
         </div>

@@ -50,12 +50,13 @@ const locations = [
 const MEHRWEGGEBINDE_PRICE = 4.0;
 
 type State = {
-  step: 1 | 2 | 3 | 4 | 5;
+  step: 1 | 2 | 3 | 4 | 5 | 6;
   containerId: string | null;
   flavorIds: string[];
   toppingIds: string[];
   bringOwnContainer: boolean;
   locationId: string | null;
+  paymentMethod: string | null;
 };
 
 type Action =
@@ -64,6 +65,7 @@ type Action =
   | { type: "TOGGLE_TOPPING"; id: string }
   | { type: "SET_OWN_CONTAINER"; value: boolean }
   | { type: "SET_LOCATION"; id: string }
+  | { type: "SET_PAYMENT"; method: string }
   | { type: "NEXT" }
   | { type: "BACK" }
   | { type: "RESET" };
@@ -90,12 +92,14 @@ function reducer(state: State, action: Action): State {
       return { ...state, bringOwnContainer: action.value };
     case "SET_LOCATION":
       return { ...state, locationId: action.id };
+    case "SET_PAYMENT":
+      return { ...state, paymentMethod: action.method };
     case "NEXT":
-      return { ...state, step: Math.min(state.step + 1, 5) as State["step"] };
+      return { ...state, step: Math.min(state.step + 1, 6) as State["step"] };
     case "BACK":
       return { ...state, step: Math.max(state.step - 1, 1) as State["step"] };
     case "RESET":
-      return { step: 1, containerId: null, flavorIds: [], toppingIds: [], bringOwnContainer: false, locationId: null };
+      return { step: 1, containerId: null, flavorIds: [], toppingIds: [], bringOwnContainer: false, locationId: null, paymentMethod: null };
     default:
       return state;
   }
@@ -109,6 +113,7 @@ function StepIndicator({ step }: { step: number }) {
     t("step_toppings"),
     t("step_container"),
     t("step_pickup"),
+    t("step_payment"),
   ];
 
   return (
@@ -131,6 +136,7 @@ export default function ConfiguratorPage() {
     toppingIds: [],
     bringOwnContainer: false,
     locationId: null,
+    paymentMethod: null,
   });
   const [complete, setComplete] = useState(false);
 
@@ -150,6 +156,7 @@ export default function ConfiguratorPage() {
       case 3: return true;
       case 4: return true;
       case 5: return !!state.locationId;
+      case 6: return !!state.paymentMethod;
       default: return false;
     }
   };
@@ -310,7 +317,7 @@ export default function ConfiguratorPage() {
                     }`}
                   >
                     <div className="card-body items-center text-center py-8">
-                      <div className="text-4xl mb-3">♻️</div>
+                      <div className="skeleton w-20 h-20 rounded-xl mb-3" />
                       <h3 className="text-lg font-bold font-[family-name:var(--font-fredoka)]">
                         {t("own_container")}
                       </h3>
@@ -327,7 +334,7 @@ export default function ConfiguratorPage() {
                     }`}
                   >
                     <div className="card-body items-center text-center py-8">
-                      <div className="text-4xl mb-3">🧊</div>
+                      <div className="skeleton w-20 h-20 rounded-xl mb-3" />
                       <h3 className="text-lg font-bold font-[family-name:var(--font-fredoka)]">
                         {t("new_container")}
                       </h3>
@@ -369,6 +376,57 @@ export default function ConfiguratorPage() {
               </div>
             )}
 
+            {/* Step 6: Payment */}
+            {state.step === 6 && (
+              <div>
+                <h2 className="text-2xl font-bold mb-2 font-[family-name:var(--font-fredoka)]">
+                  {t("select_payment")}
+                </h2>
+                <p className="text-sm text-base-content/50 mb-6">{t("payment_desc")}</p>
+
+                {/* Order Summary inline */}
+                <div className="card bg-base-200 border border-base-300 mb-8">
+                  <div className="card-body">
+                    <h3 className="font-bold mb-3">{t("summary")}</h3>
+                    <OrderSummary
+                      container={selectedContainer}
+                      flavorIds={state.flavorIds}
+                      selectedToppings={selectedToppings}
+                      totalPrice={totalPrice}
+                      bringOwn={state.bringOwnContainer}
+                      location={selectedLocation}
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {[
+                    { id: "twint", name: "TWINT", desc: t("twint_desc") },
+                    { id: "card", name: t("card"), desc: t("card_desc") },
+                    { id: "onsite", name: t("pay_onsite"), desc: t("onsite_desc") },
+                  ].map((pm) => (
+                    <button
+                      key={pm.id}
+                      onClick={() => dispatch({ type: "SET_PAYMENT", method: pm.id })}
+                      className={`card border-2 transition-all cursor-pointer ${
+                        state.paymentMethod === pm.id
+                          ? "border-warning bg-warning/5 shadow-md"
+                          : "border-base-300 bg-base-100 hover:border-warning/30"
+                      }`}
+                    >
+                      <div className="card-body items-center text-center py-6">
+                        <h3 className="text-lg font-bold font-[family-name:var(--font-fredoka)]">{pm.name}</h3>
+                        <p className="text-sm text-base-content/50">{pm.desc}</p>
+                        {state.paymentMethod === pm.id && (
+                          <span className="badge badge-warning badge-sm mt-2">✓</span>
+                        )}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Navigation */}
             <div className="flex justify-between mt-10">
               <button
@@ -378,7 +436,7 @@ export default function ConfiguratorPage() {
               >
                 {t("back")}
               </button>
-              {state.step < 5 ? (
+              {state.step < 6 ? (
                 <button
                   className="btn btn-primary"
                   onClick={() => dispatch({ type: "NEXT" })}
@@ -388,11 +446,11 @@ export default function ConfiguratorPage() {
                 </button>
               ) : (
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-warning btn-lg font-bold"
                   disabled={!canAdvance()}
                   onClick={() => setComplete(true)}
                 >
-                  {t("finish")}
+                  {t("confirm_and_pay")}
                 </button>
               )}
             </div>

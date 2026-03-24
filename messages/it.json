@@ -6,7 +6,7 @@
     "locations": "Sedi",
     "about": "Chi siamo",
     "configurator": "Gelato Esagerato",
-    "catering": "Catering",
+    "catering": "Gelato Catering",
     "gallery": "Galleria"
   },
   "hero": {
@@ -69,7 +69,7 @@
     "text2": "Nelle nostre sedi di Abtwil e Rorschach offriamo una vasta scelta di gusti classici e creativi. Molti dei quali vegani e senza lattosio."
   },
   "catering_page": {
-    "title": "Catering",
+    "title": "Gelato Catering",
     "subtitle": "Gelato per la tua occasione speciale",
     "text": "Matrimonio, compleanno o evento aziendale. Portiamo l'esperienza Bongusto direttamente da te. Contattaci e creeremo un'offerta su misura.",
     "cta": "Richiedi un preventivo"
@@ -115,7 +115,16 @@
     "new_container": "Nuovo Bongusto Cup",
     "new_container_desc": "Acquisto un nuovo Bongusto Cup. Robusto e riutilizzabile.",
     "free": "Gratuito",
-    "choose_language": "Scegli la lingua"
+    "choose_language": "Scegli la lingua",
+    "step_payment": "Pagamento",
+    "select_payment": "Come vuoi pagare?",
+    "payment_desc": "Controlla il tuo ordine e scegli un metodo di pagamento.",
+    "twint_desc": "Paga direttamente con TWINT.",
+    "card": "Carta",
+    "card_desc": "Carta di credito o debito.",
+    "pay_onsite": "Sul posto",
+    "onsite_desc": "Paga al ritiro.",
+    "confirm_and_pay": "Ordina e paga"
   },
   "footer": {
     "rights": "Tutti i diritti riservati",

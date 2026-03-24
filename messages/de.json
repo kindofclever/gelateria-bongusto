@@ -6,7 +6,7 @@
     "locations": "Standorte",
     "about": "Über uns",
     "configurator": "Gelato Esagerato",
-    "catering": "Catering",
+    "catering": "Gelato Catering",
     "gallery": "Galerie"
   },
   "hero": {
@@ -20,7 +20,7 @@
   },
   "about_teaser": {
     "title": "Unsere Geschichte",
-    "text": "Seit Generationen verbindet unsere Familie die Leidenschaft für echtes italienisches Gelato. Jede Kugel erzählt eine Geschichte. Erfahre, was Bongusto so besonders macht.",
+    "text": "Unsere Familie verbindet die Leidenschaft für echtes italienisches Gelato. Jede Kugel erzählt eine Geschichte. Erfahre, was Bongusto so besonders macht.",
     "cta": "Mehr erfahren"
   },
   "locations_preview": {
@@ -65,11 +65,11 @@
   "about_page": {
     "title": "Über uns",
     "subtitle": "Die Geschichte hinter Bongusto",
-    "text1": "Bongusto steht für echtes italienisches Gelato. Hergestellt mit natürlichen Zutaten und viel Leidenschaft. Seit Generationen verbindet unsere Familie die Liebe zum Handwerk mit dem Wissen um traditionelle Rezepturen.",
+    "text1": "Bongusto steht für echtes italienisches Gelato. Hergestellt mit natürlichen Zutaten und viel Leidenschaft. Unsere Familie verbindet die Liebe zum Handwerk mit dem Wissen um traditionelle Rezepturen.",
     "text2": "An unseren Standorten in Abtwil und Rorschach bieten wir eine grosse Auswahl an klassischen und kreativen Sorten. Viele davon vegan und laktosefrei."
   },
   "catering_page": {
-    "title": "Catering",
+    "title": "Gelato Catering",
     "subtitle": "Gelato für deinen Anlass",
     "text": "Hochzeit, Geburtstag oder Firmenevent. Wir bringen das Bongusto Erlebnis direkt zu dir. Kontaktiere uns und wir stellen ein individuelles Angebot für dich zusammen.",
     "cta": "Anfrage senden"
@@ -115,13 +115,22 @@
     "new_container": "Neuer Bongusto Cup",
     "new_container_desc": "Ich kaufe einen neuen Bongusto Cup. Stabil und wiederverwendbar.",
     "free": "Gratis",
-    "choose_language": "Sprache wählen"
+    "choose_language": "Sprache wählen",
+    "step_payment": "Zahlung",
+    "select_payment": "Wie möchtest du bezahlen?",
+    "payment_desc": "Prüfe deine Bestellung und wähle eine Zahlungsmethode.",
+    "twint_desc": "Bezahle direkt mit TWINT.",
+    "card": "Karte",
+    "card_desc": "Kredit- oder Debitkarte.",
+    "pay_onsite": "Vor Ort",
+    "onsite_desc": "Bezahle bei der Abholung.",
+    "confirm_and_pay": "Bestellen und bezahlen"
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten",
     "imprint": "Impressum",
     "privacy": "Datenschutz",
-    "tagline": "Echtes italienisches Gelato. Seit Generationen."
+    "tagline": "Echtes italienisches Gelato"
   },
   "common": {
     "loading": "Wird geladen …",

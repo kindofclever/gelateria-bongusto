@@ -8,6 +8,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import NavSpacer from "@/components/layout/NavSpacer";
 import SocialFab from "@/components/ui/SocialFab";
+import JsonLd from "@/components/seo/JsonLd";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -57,6 +58,7 @@ export default async function LocaleLayout({
       className={`${fredoka.variable} ${nunito.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-base-100 text-base-content">
+        <JsonLd />
         <NextIntlClientProvider messages={messages}>
           <Header />
           <NavSpacer />

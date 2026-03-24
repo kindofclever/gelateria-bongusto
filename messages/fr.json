@@ -115,7 +115,16 @@
     "new_container": "Nouveau Bongusto Cup",
     "new_container_desc": "J'achète un nouveau Bongusto Cup. Solide et réutilisable.",
     "free": "Gratuit",
-    "choose_language": "Choisir la langue"
+    "choose_language": "Choisir la langue",
+    "step_payment": "Paiement",
+    "select_payment": "Comment souhaitez-vous payer ?",
+    "payment_desc": "Vérifiez votre commande et choisissez un mode de paiement.",
+    "twint_desc": "Payez directement avec TWINT.",
+    "card": "Carte",
+    "card_desc": "Carte de crédit ou de débit.",
+    "pay_onsite": "Sur place",
+    "onsite_desc": "Payez au retrait.",
+    "confirm_and_pay": "Commander et payer"
   },
   "footer": {
     "rights": "Tous droits réservés",

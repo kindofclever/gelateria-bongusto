@@ -6,7 +6,7 @@
     "locations": "Locations",
     "about": "About",
     "configurator": "Gelato Esagerato",
-    "catering": "Catering",
+    "catering": "Gelato Catering",
     "gallery": "Gallery"
   },
   "hero": {
@@ -69,7 +69,7 @@
     "text2": "At our locations in Abtwil and Rorschach, we offer a wide selection of classic and creative flavors. Many of them vegan and lactose free."
   },
   "catering_page": {
-    "title": "Catering",
+    "title": "Gelato Catering",
     "subtitle": "Gelato for your special occasion",
     "text": "Wedding, birthday, or corporate event. We bring the Bongusto experience to you. Get in touch and we'll put together a custom offer just for you.",
     "cta": "Request a quote"
@@ -115,7 +115,16 @@
     "new_container": "New Bongusto Cup",
     "new_container_desc": "I'll buy a new Bongusto Cup. Sturdy and reusable.",
     "free": "Free",
-    "choose_language": "Choose language"
+    "choose_language": "Choose language",
+    "step_payment": "Payment",
+    "select_payment": "How would you like to pay?",
+    "payment_desc": "Review your order and choose a payment method.",
+    "twint_desc": "Pay directly with TWINT.",
+    "card": "Card",
+    "card_desc": "Credit or debit card.",
+    "pay_onsite": "On site",
+    "onsite_desc": "Pay at pickup.",
+    "confirm_and_pay": "Order and pay"
   },
   "footer": {
     "rights": "All rights reserved",

@@ -47,7 +47,7 @@ export default function JsonLd() {
       },
     ],
     sameAs: [
-      "https://instagram.com",
+      "https://www.instagram.com/gelateriabongusto/",
       "https://facebook.com",
       "https://tiktok.com",
     ],
